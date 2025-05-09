@@ -5,6 +5,6 @@ app.get("/",(req,res)=>{
     res.send("deployed");
 })
 
-app.listen(dotenv.process.PORT() || 9000,()=>{
+app.listen(9000,()=>{
     console.log("server is running");
 });
